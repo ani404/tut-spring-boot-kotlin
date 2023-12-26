@@ -1,16 +1,23 @@
 {{> header}}
 
-<section class="article">
-	<header class="article-header">
-		<h1 class="article-title">{{article.title}}</h1>
-		<p class="article-meta">By  <strong>{{article.author.firstname}}</strong>, on <strong>{{article.addedAt}}</strong></p>
-	</header>
+<main>
+    <article class="article">
+        <header class="article-header">
+            <h1 class="article-title">{{article.title}}</h1>
+            <p class="article-meta">
+                By <strong>{{article.author.firstname}}</strong>, on <strong>{{article.addedAt}}</strong>
+            </p>
+        </header>
 
-	<div class="article-description">
-		{{article.headline}}
-
-		{{article.content}}
-	</div>
-</section>
+        <div class="article-content">
+            <p class="article-description">
+                {{article.headline}}
+            </p>
+            <div class="article-text">
+                {{article.content}}
+            </div>
+        </div>
+    </article>
+</main>
 
 {{> footer}}
