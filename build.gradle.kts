@@ -6,7 +6,7 @@ plugins {
 	kotlin("jvm") version "1.9.22"
 	kotlin("plugin.spring") version "1.8.0"
 	kotlin("plugin.allopen") version "1.9.22"
-	kotlin("plugin.jpa") version "1.8.0"
+	kotlin("plugin.jpa") version "1.9.22"
 	kotlin("kapt") version "1.9.22"
 }
 
