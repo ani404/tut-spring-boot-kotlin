@@ -35,7 +35,7 @@ class IntegrationTests(@Autowired val restTemplate: TestRestTemplate) {
 		assertThat(entity.body).contains(title, "Lorem", "dolor sit amet")
 	}
 
-	// Additional tests with different data
+	// Additional tests with different data  
 	@Test
 	fun `Assert another article page title, content and status code`() {
 		println(">> Assert another article page title, content and status code")
