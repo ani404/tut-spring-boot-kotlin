@@ -200,6 +200,7 @@ Notice also that Kotlin compiler is configured to generate Java 8 bytecode (Java
 
 === Dependencies
 
+
 3 Kotlin specific libraries are required for such Spring Boot web application and configured by default:
 
  - `kotlin-stdlib` is the Kotlin standard library
