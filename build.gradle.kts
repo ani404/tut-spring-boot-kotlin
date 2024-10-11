@@ -7,7 +7,7 @@ plugins {
 	kotlin("plugin.spring") version "2.0.0"
 	kotlin("plugin.allopen") version "2.0.21"
 	kotlin("plugin.jpa") version "2.0.21"
-	kotlin("kapt") version "2.0.20"
+	kotlin("kapt") version "2.0.21"
 }
 
 group = "com.example"
